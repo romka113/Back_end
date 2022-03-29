@@ -16,5 +16,8 @@
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "git-update": "^1.1.3"
   }
 }
