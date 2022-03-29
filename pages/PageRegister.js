@@ -1,7 +1,9 @@
 import { PageTemplate } from "../lib/PageTemplate.js";
+
 class PageRegister extends PageTemplate {
   mainHTML() {
-    return `Register PAGE CONTENT`;
+    return `REGISTER PAGE CONTENT`;
   }
 }
+
 export { PageRegister };
