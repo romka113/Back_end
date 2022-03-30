@@ -1,15 +1,23 @@
-import { server } from "./lib/server.js";
+import { server } from './lib/server.js';
+
 const app = {};
+
 app.init = () => {
-  //pasiruosti pradinius folderius
-  //pasiruosti pradinius failus
-  //prisijungimas prieDB(duomenu baze)
-  //uzkurti pati serveri (musu programa)
-  server.init();
-  //regulairiu procesu praleidimas
-  //istrinti senus neberikalingus falus
-  //maziau naudojamu failu archivavimas
-  //atsinaujitnit informacija per is API
-};
+    // pasiruosti pradinius folder'ius
+
+    // pasiruosti pradinius failus
+
+    // prisijungimas prie DB (duomenu baze)
+
+    // uzkurti pati serveri (musu programa)
+    server.init();
+
+    // reguliariu procesu paleidimas:
+    // - istrinti senus/nebereikalingus failus
+    // - maziau naudojamu failu archivavimas
+    // - atsinaujinti informacija per/is API
+}
+
 app.init();
+
 export { app };
